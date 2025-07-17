@@ -6,7 +6,8 @@ const {
     convertToTitleCase, 
     dashingNumbers,
     addListEnds,
-    addEvenNumbers
+    addEvenNumbers,
+
 } = require('../src/easy.js');
 
 const assert = require('assert');

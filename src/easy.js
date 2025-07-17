@@ -90,7 +90,7 @@ function addListEnds(arr) {
  * Adds all even numbers from 0 to n (inclusive).
  * 
  * @param {} n 
- * @returns 
+ * @returns {number}
  */
 function addEvenNumbers(n) {
     let sum = 0;
@@ -102,7 +102,10 @@ function addEvenNumbers(n) {
     return sum;
 }
 
-console.log(addEvenNumbers(10));
+
+
+
+
 
 module.exports = {
     checkPassOrFail,
@@ -111,5 +114,7 @@ module.exports = {
     convertToTitleCase,
     dashingNumbers,
     addListEnds,
-    addEvenNumbers
+    addEvenNumbers,
+    replaceSmiley,
+    hideCreditCard
 };
